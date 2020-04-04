@@ -1,6 +1,7 @@
 run npm init in terminal
 install all dependencies using npm i bcryptjs dotenv express mongoose validator jsonwebtoken
 and development dependencies npm i nodemon --save-dev
+run npm start in terminal
 
 use postman for checking all routes as
 /register - 127.0.0.1:3000/users/register

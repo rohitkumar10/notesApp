@@ -5,7 +5,7 @@ dotenv.config({path:'./config.env'})
 const port = 3000;
 
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD); 
-mongoose.connect(DB, {  
+mongoose.connect(process.env.DATABASE_LOCAL, {  
     useNewUrlParser: true,
     useCreateIndex: true, 
     useFindAndModify: false,
